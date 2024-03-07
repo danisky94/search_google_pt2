@@ -1,5 +1,5 @@
 name: 'Dependency Check'
-on: [push]
+on: [push,workflow_dispatch]
 
 jobs:
   depchecktest:
