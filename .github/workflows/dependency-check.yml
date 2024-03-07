@@ -3,8 +3,7 @@ on: [push,workflow_dispatch]
 
 jobs:
   depchecktest:
-    runs-on: self-hosted
-    #runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     name: depecheck_test
     steps:
       - name: Checkout
